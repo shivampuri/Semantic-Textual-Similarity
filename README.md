@@ -4,7 +4,7 @@
 
 
 ## Abstract
-Semantic Textual Similarity (STS) measures the meaning similarity of sentences. Applications of this task include machine translation, summarization, text generation, question answering, short answer grading, semantic search, dialogue and conversational systems. We developed Support Vector Regression model with various features including the similarity scores calculated using alignment-based methods and semantic composition based methods. We have also trained sentence semantic representations with BiLSTM and Convolutional Neural Networks (CNN). The correlations between our system output the human ratings were above 0.8 in the test dataset.
+Semantic Textual Similarity (STS) measures the meaning similarity of sentences. Applications of this task include machine translation, summarization, text generation, question answering, short answer grading, semantic search, dialogue and conversational systems. We developed Random Forest Regression model with various features. We have also trained sentence semantic representations with BiLSTM and BERT.
 
 ## Introduction
 The goal of this task is to measure semantic textual similarity between a given pair of sentences (what they mean rather than whether they look similar syntactically). While making such an assessment is trivial for humans, constructing algorithms and computational models that mimic human level performance represents a difficult and deep natural language
@@ -31,11 +31,11 @@ Semantic Textual Similarity (STS) measures the degree of equivalence in the unde
 ## Experimental Design
 
 ### Data
-We obtained the data by merging data from year 2012 to 2017 SemEval Shared Task. Out of a total of approximately 28000 sentence pairs, we were left with about 15115 sentence pairs (cleaning involved removing sentence pairs without a tab delimiter and pairs with a blank gold score). We split the data into three parts as below. 
+We obtained the data from year 2012 SemEval Shared Task. Out of a total of approximately 6000 sentence pairs, we were left with about 5150 sentence pairs (cleaning involved removing sentence pairs without a tab delimiter and pairs with a blank gold score). We split the data into three parts as below. 
 
-Training data: 13365 pairs
-Validation data:  1500 pairs
-Test data: 250 pairs (Same as used by the other teams to test their model in the 2017 task)
+Training data: 4120 pairs
+Validation data:  515 pairs
+Test data: 515 pairs 
 
 #### Data Pre-processing
 
