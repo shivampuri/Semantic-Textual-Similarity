@@ -33,9 +33,9 @@ Semantic Textual Similarity (STS) measures the degree of equivalence in the unde
 ### Data
 We obtained the data from year 2012 SemEval Shared Task. Out of a total of approximately 6000 sentence pairs, we were left with about 5750 sentence pairs (cleaning involved removing sentence pairs without a tab delimiter and pairs with a blank gold score). We split the data into three parts as below. 
 
-Training data: 4600 pairs
-Validation data:  575 pairs
-Test data: 575 pairs 
+- Training data: 4600 pairs
+- Validation data:  575 pairs
+- Test data: 575 pairs 
 
 ### Data Pre-processing
 
