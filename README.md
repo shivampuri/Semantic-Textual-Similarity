@@ -37,7 +37,7 @@ Training data: 4600 pairs
 Validation data:  575 pairs
 Test data: 575 pairs 
 
-#### Data Pre-processing
+### Data Pre-processing
 
 We used tokenization and lemmatization on the data as a pre-processing step before we turn the data into our models. We chose to do this step as lemmatization does not take away any semantic information from sentences and hence was an essential step for our application.
 
