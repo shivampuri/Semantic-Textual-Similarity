@@ -43,3 +43,11 @@ We used tokenization and lemmatization on the data as a pre-processing step befo
 
 ### Evaluation Metric
 The official score is based on weighted Pearson correlation between predicted similarity and human annotated similarity. The higher the score, the better the the similarity prediction result from the algorithm.
+
+
+## Files Submitted : 
+- STS_TF-IDF_Word2Vec_BiLSTM.ipynb
+- STS_BERT.ipynb
+- STS_RoBERTa.ipynb
+- STSData.csv
+- Cleaned_STSData.csv
